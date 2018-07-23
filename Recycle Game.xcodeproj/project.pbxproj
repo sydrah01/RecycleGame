@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BDBDE3A210675C0002125F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDBDE39210675C0002125F3 /* AppDelegate.swift */; };
+		9BDBDE3C210675C0002125F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDBDE3B210675C0002125F3 /* ViewController.swift */; };
+		9BDBDE3F210675C0002125F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDBDE3D210675C0002125F3 /* Main.storyboard */; };
+		9BDBDE42210675C0002125F3 /* Recycle_Game.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BDBDE40210675C0002125F3 /* Recycle_Game.xcdatamodeld */; };
+		9BDBDE44210675C2002125F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BDBDE43210675C2002125F3 /* Assets.xcassets */; };
+		9BDBDE47210675C2002125F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDBDE45210675C2002125F3 /* LaunchScreen.storyboard */; };
+		9BDBDE52210675C2002125F3 /* Recycle_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDBDE51210675C2002125F3 /* Recycle_GameTests.swift */; };
+		9BDBDE5D210675C2002125F3 /* Recycle_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDBDE5C210675C2002125F3 /* Recycle_GameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BDBDE4E210675C2002125F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BDBDE2E210675C0002125F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BDBDE35210675C0002125F3;
+			remoteInfo = "Recycle Game";
+		};
+		9BDBDE59210675C2002125F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BDBDE2E210675C0002125F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BDBDE35210675C0002125F3;
+			remoteInfo = "Recycle Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BDBDE36210675C0002125F3 /* Recycle Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recycle Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BDBDE39210675C0002125F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BDBDE3B210675C0002125F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BDBDE3E210675C0002125F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BDBDE41210675C0002125F3 /* Recycle_Game.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Recycle_Game.xcdatamodel; sourceTree = "<group>"; };
+		9BDBDE43210675C2002125F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BDBDE46210675C2002125F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BDBDE48210675C2002125F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BDBDE4D210675C2002125F3 /* Recycle GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recycle GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BDBDE51210675C2002125F3 /* Recycle_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recycle_GameTests.swift; sourceTree = "<group>"; };
+		9BDBDE53210675C2002125F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BDBDE58210675C2002125F3 /* Recycle GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recycle GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BDBDE5C210675C2002125F3 /* Recycle_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recycle_GameUITests.swift; sourceTree = "<group>"; };
+		9BDBDE5E210675C2002125F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BDBDE33210675C0002125F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDBDE4A210675C2002125F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDBDE55210675C2002125F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BDBDE2D210675C0002125F3 = {
+			isa = PBXGroup;
+			children = (
+				9BDBDE38210675C0002125F3 /* Recycle Game */,
+				9BDBDE50210675C2002125F3 /* Recycle GameTests */,
+				9BDBDE5B210675C2002125F3 /* Recycle GameUITests */,
+				9BDBDE37210675C0002125F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BDBDE37210675C0002125F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BDBDE36210675C0002125F3 /* Recycle Game.app */,
+				9BDBDE4D210675C2002125F3 /* Recycle GameTests.xctest */,
+				9BDBDE58210675C2002125F3 /* Recycle GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BDBDE38210675C0002125F3 /* Recycle Game */ = {
+			isa = PBXGroup;
+			children = (
+				9BDBDE39210675C0002125F3 /* AppDelegate.swift */,
+				9BDBDE3B210675C0002125F3 /* ViewController.swift */,
+				9BDBDE3D210675C0002125F3 /* Main.storyboard */,
+				9BDBDE43210675C2002125F3 /* Assets.xcassets */,
+				9BDBDE45210675C2002125F3 /* LaunchScreen.storyboard */,
+				9BDBDE48210675C2002125F3 /* Info.plist */,
+				9BDBDE40210675C0002125F3 /* Recycle_Game.xcdatamodeld */,
+			);
+			path = "Recycle Game";
+			sourceTree = "<group>";
+		};
+		9BDBDE50210675C2002125F3 /* Recycle GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BDBDE51210675C2002125F3 /* Recycle_GameTests.swift */,
+				9BDBDE53210675C2002125F3 /* Info.plist */,
+			);
+			path = "Recycle GameTests";
+			sourceTree = "<group>";
+		};
+		9BDBDE5B210675C2002125F3 /* Recycle GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BDBDE5C210675C2002125F3 /* Recycle_GameUITests.swift */,
+				9BDBDE5E210675C2002125F3 /* Info.plist */,
+			);
+			path = "Recycle GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BDBDE35210675C0002125F3 /* Recycle Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BDBDE61210675C2002125F3 /* Build configuration list for PBXNativeTarget "Recycle Game" */;
+			buildPhases = (
+				9BDBDE32210675C0002125F3 /* Sources */,
+				9BDBDE33210675C0002125F3 /* Frameworks */,
+				9BDBDE34210675C0002125F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recycle Game";
+			productName = "Recycle Game";
+			productReference = 9BDBDE36210675C0002125F3 /* Recycle Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BDBDE4C210675C2002125F3 /* Recycle GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BDBDE64210675C2002125F3 /* Build configuration list for PBXNativeTarget "Recycle GameTests" */;
+			buildPhases = (
+				9BDBDE49210675C2002125F3 /* Sources */,
+				9BDBDE4A210675C2002125F3 /* Frameworks */,
+				9BDBDE4B210675C2002125F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BDBDE4F210675C2002125F3 /* PBXTargetDependency */,
+			);
+			name = "Recycle GameTests";
+			productName = "Recycle GameTests";
+			productReference = 9BDBDE4D210675C2002125F3 /* Recycle GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BDBDE57210675C2002125F3 /* Recycle GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BDBDE67210675C2002125F3 /* Build configuration list for PBXNativeTarget "Recycle GameUITests" */;
+			buildPhases = (
+				9BDBDE54210675C2002125F3 /* Sources */,
+				9BDBDE55210675C2002125F3 /* Frameworks */,
+				9BDBDE56210675C2002125F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BDBDE5A210675C2002125F3 /* PBXTargetDependency */,
+			);
+			name = "Recycle GameUITests";
+			productName = "Recycle GameUITests";
+			productReference = 9BDBDE58210675C2002125F3 /* Recycle GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BDBDE2E210675C0002125F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Sydrah Al-saegh";
+				TargetAttributes = {
+					9BDBDE35210675C0002125F3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					9BDBDE4C210675C2002125F3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 9BDBDE35210675C0002125F3;
+					};
+					9BDBDE57210675C2002125F3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 9BDBDE35210675C0002125F3;
+					};
+				};
+			};
+			buildConfigurationList = 9BDBDE31210675C0002125F3 /* Build configuration list for PBXProject "Recycle Game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BDBDE2D210675C0002125F3;
+			productRefGroup = 9BDBDE37210675C0002125F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BDBDE35210675C0002125F3 /* Recycle Game */,
+				9BDBDE4C210675C2002125F3 /* Recycle GameTests */,
+				9BDBDE57210675C2002125F3 /* Recycle GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BDBDE34210675C0002125F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDBDE47210675C2002125F3 /* LaunchScreen.storyboard in Resources */,
+				9BDBDE44210675C2002125F3 /* Assets.xcassets in Resources */,
+				9BDBDE3F210675C0002125F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDBDE4B210675C2002125F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDBDE56210675C2002125F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BDBDE32210675C0002125F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDBDE3C210675C0002125F3 /* ViewController.swift in Sources */,
+				9BDBDE3A210675C0002125F3 /* AppDelegate.swift in Sources */,
+				9BDBDE42210675C0002125F3 /* Recycle_Game.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDBDE49210675C2002125F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDBDE52210675C2002125F3 /* Recycle_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDBDE54210675C2002125F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDBDE5D210675C2002125F3 /* Recycle_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BDBDE4F210675C2002125F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BDBDE35210675C0002125F3 /* Recycle Game */;
+			targetProxy = 9BDBDE4E210675C2002125F3 /* PBXContainerItemProxy */;
+		};
+		9BDBDE5A210675C2002125F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BDBDE35210675C0002125F3 /* Recycle Game */;
+			targetProxy = 9BDBDE59210675C2002125F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BDBDE3D210675C0002125F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BDBDE3E210675C0002125F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BDBDE45210675C2002125F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BDBDE46210675C2002125F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BDBDE5F210675C2002125F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BDBDE60210675C2002125F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BDBDE62210675C2002125F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Recycle Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GWC.Recycle-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BDBDE63210675C2002125F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Recycle Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GWC.Recycle-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BDBDE65210675C2002125F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Recycle GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GWC.Recycle-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recycle Game.app/Recycle Game";
+			};
+			name = Debug;
+		};
+		9BDBDE66210675C2002125F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Recycle GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GWC.Recycle-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recycle Game.app/Recycle Game";
+			};
+			name = Release;
+		};
+		9BDBDE68210675C2002125F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Recycle GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GWC.Recycle-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Recycle Game";
+			};
+			name = Debug;
+		};
+		9BDBDE69210675C2002125F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Recycle GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GWC.Recycle-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Recycle Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BDBDE31210675C0002125F3 /* Build configuration list for PBXProject "Recycle Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BDBDE5F210675C2002125F3 /* Debug */,
+				9BDBDE60210675C2002125F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BDBDE61210675C2002125F3 /* Build configuration list for PBXNativeTarget "Recycle Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BDBDE62210675C2002125F3 /* Debug */,
+				9BDBDE63210675C2002125F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BDBDE64210675C2002125F3 /* Build configuration list for PBXNativeTarget "Recycle GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BDBDE65210675C2002125F3 /* Debug */,
+				9BDBDE66210675C2002125F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BDBDE67210675C2002125F3 /* Build configuration list for PBXNativeTarget "Recycle GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BDBDE68210675C2002125F3 /* Debug */,
+				9BDBDE69210675C2002125F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9BDBDE40210675C0002125F3 /* Recycle_Game.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9BDBDE41210675C0002125F3 /* Recycle_Game.xcdatamodel */,
+			);
+			currentVersion = 9BDBDE41210675C0002125F3 /* Recycle_Game.xcdatamodel */;
+			path = Recycle_Game.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9BDBDE2E210675C0002125F3 /* Project object */;
+}
